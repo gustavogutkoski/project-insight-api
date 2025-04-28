@@ -1,0 +1,21 @@
+[project]
+name = "project-insight-api"
+version = "0.1.0"
+description = "MVP API for Project Insight"
+authors = [
+    {name = "Gustavo A. Gutkoski",email = "gustavogutkoski2609@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi (>=0.115.12,<0.116.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+uvicorn = "^0.34.2"
+
