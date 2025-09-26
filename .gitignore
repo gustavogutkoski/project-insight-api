@@ -1,43 +1,39 @@
+*.pyc
+*.pyo
 __pycache__/
-*.py[cod]
-*$py.class
 
-venv/
-.env/
-.venv/
-ENV/
-env/
-env.bak/
-venv.bak/
+*.db
 
 .vscode/
+.idea/
 
-.pytest_cache/
+.env
 
-.mypy_cache/
+.DS_Store
 
-htmlcov/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-
-Pipfile
-Pipfile.lock
-
-instance/
-*.db
-*.sqlite3
+Thumbs.db
 
 *.log
 
-.DS_Store
-Thumbs.db
+venv/
+env/
 
-.idea/
-*.iml
+*.sqlite3
 
-__pypackages__/
+coverage.xml
+.coverage
+
+.venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage.*
+
+__pycache__/
+*$py.class
+*.py,cover
+*.cover
+nosetests.xml
+
+build/
+*.so
